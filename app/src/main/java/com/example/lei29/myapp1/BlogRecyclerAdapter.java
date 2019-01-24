@@ -83,7 +83,7 @@ public class BlogRecyclerAdapter extends RecyclerView.Adapter<BlogRecyclerAdapte
                 } else {
                     Log.d(TAG, "get failed with ", task.getException());
                 }
-            }
+            } 
         });
 
         long millisecond = blog_list.get(i).getTimestamp().getTime();
